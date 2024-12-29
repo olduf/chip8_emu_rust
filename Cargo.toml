@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "chip8_lib",
+    "app",
+]
+resolver = "2"
+
+[profile.release]
+panic = 'abort'
